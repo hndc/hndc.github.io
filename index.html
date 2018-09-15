@@ -1,0 +1,423 @@
+	<!DOCTYPE html>
+	<html lang="en" class="no-js">
+	<head>
+		<!-- Mobile Specific Meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- Favicon-->
+		<link rel="shortcut icon" href="img/icon.png">
+		<!-- Author Meta -->
+		<meta name="author" content="Abhisek">
+		<!-- Meta Description -->
+		<meta name="description" content="">
+		<!-- Meta Keyword -->
+		<meta name="keywords" content="">
+		<!-- meta character set -->
+		<meta charset="UTF-8">
+		<!-- Site Title -->
+		<title>Awasar</title>
+
+		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
+
+			<link rel="stylesheet" href="css/linearicons.css">
+			<link rel="stylesheet" href="css/font-awesome.min.css">
+			<link rel="stylesheet" href="css/bootstrap.css">
+			<link rel="stylesheet" href="css/magnific-popup.css">
+			<link rel="stylesheet" href="css/owl.carousel.css">	
+			<link rel="stylesheet" href="css/nice-select.css">				
+			<link rel="stylesheet" href="css/main.css">
+
+		</head>
+		<body>	
+			<header id="header">
+				<div class="container main-menu">
+					<div class="row align-items-center justify-content-between d-flex">
+						<div id="logo">
+						      <a href="index.html"><h3 class="text-white">AWASAR</h3><!-- <img src="img/.png" alt="Awasar" title="Awasar logo" /> --></a>
+						</div>
+						<div class="search-top">
+							<form class="navbar-form" action="" method="get">
+								<div class="input-group add-on align-items-center d-flex">
+									<input class="form-control form-control-sm" name="search" placeholder="Search here....">
+									<div class="input-group-btn">
+										<button class="genric-btn" type="submit"><span class="lnr lnr-magnifier"></span></button>
+									</div>
+								</div>			     
+							</form>
+
+						</div>
+				      <nav id="nav-menu-container">
+				        <ul class="nav-menu">
+				          <li><a href="#">Explore</a></li>
+				          <li><a class="popup-with-form" href="#test-form">Avatar</a></li>				          
+				          <li class="dropdown">
+				          	<a href="#" class="dropdown-toggle" data-toggle="dropdown" onclick="return false;">Contribute</a>							  
+				            <div class="dropdown-menu">
+				              <a class="dropdown-item popup-with-form" href="#test-form1">Links</a>
+				              <a class="dropdown-item popup-with-form" href="#test-form2">Attatchments</a>
+				            </div>
+				          </li>
+				          <li><a class="popup-with-form" href="#test-form3">Invite</a></li>
+				          <li><a class="popup-with-form" href="#test-form4">Sign In</a></li>
+				          <li><a class="popup-with-form" href="#test-form5">Sign Up</a></li>			          					          		          
+				        </ul>
+				      </nav><!-- #nav-menu-container -->					      		  
+					</div>
+				</div>
+			</header><!-- #header -->
+
+
+			<!-- POPUPS -->
+			<!-- Avatar form -->
+			<form id="test-form" class="white-popup-block mfp-hide">
+				<div class="form-group">
+					<div class=" py-4 px-2">
+						<h4 class="text-black">Describe yourself using attributes!</h4>
+					</div>
+					<textarea class="form-control" rows="7" id="attributes" placeholder="age;gender;profession;location;interests;etc."></textarea>
+					<br>
+					<button type="submit" class="genric-btn success my-3">Submit</button>
+				</div>
+			</form>
+
+			<!-- Links form -->
+			<form id="test-form1" class="white-popup-block mfp-hide">
+				<div class="form-group">
+					<div class=" py-4 px-2">
+						<h4 class="text-black">Share something with others that made a difference in your life!</h4>
+					</div>
+					<input type="file" class="my-3">
+					<textarea class="form-control mobile-form my-3" rows="5" placeholder="Short description about the attachment!" ></textarea>
+					<textarea class="form-control mobile-form my-3" rows="5" placeholder="Describe your audience using attributes!" ></textarea>
+					<textarea class="form-control mobile-form my-3" rows="5" placeholder="Briefly describe how it was useful to for you!" ></textarea>
+					<br>
+					<button type="submit" class="genric-btn success my-3">Submit</button>
+				</div>
+			</form>
+
+			<!-- Attatchments form -->
+			<form id="test-form2" class="white-popup-block mfp-hide">
+				<div class="form-group">
+					<div class=" py-4 px-2">
+						<h4 class="text-black">Share something with others that made a difference in your life!</h4>
+					</div>
+					<input type="text" class="form-control my-3" placeholder="Type or paste link">
+					<textarea class="form-control mobile-form my-3" rows="5" placeholder="Short description about the link!"></textarea>
+					<textarea class="form-control mobile-form" rows="5" placeholder="Describe your audience using attributes!" ></textarea>
+					<textarea class="form-control mobile-form my-3" rows="5" placeholder="Briefly describe how it was useful to for you!" ></textarea>
+					<br>
+					<button type="submit" class="genric-btn success my-3">Submit</button>
+				</div>
+			</form>
+
+			<!-- Invite form -->
+			<form id="test-form3" class="white-popup-block mfp-hide">
+				<div class="form-group">
+					<div class=" py-4 px-2">
+						<h4 class="text-black">Invite your friends and family!</h4>
+					</div>
+					<input type="text" class="form-control" id="usr" placeholder="Email">
+					<br>
+					<button type="submit" class="genric-btn success my-3">Send</button>
+				</div>
+			</form>
+
+			<!-- Sign In form -->
+			<form id="test-form4" class="white-popup-block mfp-hide">
+				<div class="form-group">
+					<div class=" py-4 px-2">
+						<h4 class="text-black">Sign-In/Sign-Up</h4>
+					</div>
+					<input type="text" class="form-control my-3" id="usr" placeholder="Email">
+					<input type="password" class="form-control my-3" id="pwd" placeholder="Password">
+					<div class="checkbox">
+						<label><input type="checkbox" name="remember"> Remember me</label>
+					</div>
+					<p>Need help ? <a href="#" class="text-danger">Click Here</a></p>
+					<br>
+					<button type="submit" class="genric-btn success my-3">Sign In</button>
+				</div>
+			</form>
+
+			<!-- Sign Up form -->
+			<form id="test-form5" class="white-popup-block mfp-hide">
+				<div class="form-group">
+					<div class="py-4 px-2">
+						<h4 class="text-black">Sign-Up</h4>
+					</div>
+					<input type="text" class="form-control my-3" placeholder="Full name">
+					<input type="text" class="form-control my-3" id="usr" placeholder="Email">
+					<input type="password" class="form-control my-3" id="pwd" placeholder="Password">
+					<input type="password" class="form-control my-3" placeholder="Retype Password">
+					<br>
+					<button type="submit" class="genric-btn success my-3">Register</button>
+				</div>
+			</form>
+
+			<!-- Modal box -->
+				<div id="small-dialog" class="zoom-anim-dialog mfp-hide">
+					<img src="img/capture.jpg" class="float-left img-responsive pr-3" alt="" height="60" width="auto">
+					<h2>Mr.Hem Narayan Das Chaudhary</h2>
+					<p>A student at MIT. Majoring in Mathematical economics. From Nepal.</p>
+					<hr>
+					<div class="jumbotron">
+						<h2>What is Lorem Ipsum?</h2>
+						<p>
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+						</p>
+							
+						<h2>Why do we use it?</h2>
+						<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+						</p>
+						
+						<h2>Where does it come from?</h2>
+						<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+							The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+						</p>
+					</div>
+				</div>
+
+			<!-- POPUPS END -->
+
+			<!-- Card grids -->
+			<section class="sample-text-area">	
+				<div class="container">
+					<div class="row fullscreen align-items-center justify-content-between">
+						<div class="col-md-3 col-lg-3 col-sm-6 col-xs-6 mt-4">
+			    		    <div class="card bodh-card">
+			    		        <div class="card-img-block">
+			    		          <a class="popup-modal popup-with-zoom-anim" href="#small-dialog"><img class="card-img-top" src="img/Capture.jpg" alt="Card image cap"></a>
+			    		        </div>
+			                    <div class="card-body pt-0">
+			                    <h6 class="card-title">Hem Narayan Das Chaudhary</h6>
+			                    <hr>
+			                    <p class="card-text">Life is the aspect of existence that processes, acts, reacts, evaluates, and evolves through growth (reproduction and metabolism).</p>
+			                    
+			                  </div>
+			                  <div class="rounded-bottom mdb-color lighten-3 text-center">
+							    <ul class="list-unstyled list-inline font-small">
+							      <li class="list-inline-item pr-2 white-text"><i class="fa fa-clock-o pr-1"></i>18-08-2018</li>
+							      <li class="list-inline-item pr-2"><a href="#" class="white-text"><i class="fa fa-comments-o pr-1"></i>12</a></li>
+							      <li class="list-inline-item pr-2"><a href="#" class="white-text"><i class="fa fa-star pr-1"> </i>21</a></li>
+							      <li class="list-inline-item"><a href="#" class="white-text"><i class="fa fa-share pr-1"> </i>5</a></li>
+							    </ul>
+							  </div>
+			                </div>
+			    		</div>
+
+			    		<div class="col-md-3 col-lg-3 col-sm-6 col-xs-6 mt-4">
+			    		    <div class="card bodh-card">
+			    		        <div class="card-img-block">
+			    		            <img class="card-img-top" src="img/Capture1.jpg" alt="Card image cap">
+			    		        </div>
+			                    <div class="card-body pt-0">
+			                    <h6 class="card-title">Hem Narayan Das Chaudhary</h6>
+			                    <hr>
+			                    <p class="card-text">Life is the aspect of existence that processes, acts, reacts, evaluates, and evolves through growth (reproduction and metabolism).</p>
+			                    
+			                  </div>
+			                  <div class="rounded-bottom mdb-color lighten-3 text-center">
+							    <ul class="list-unstyled list-inline font-small">
+							      <li class="list-inline-item pr-2 white-text"><i class="fa fa-clock-o pr-1"></i>18-08-2018</li>
+							      <li class="list-inline-item pr-2"><a href="#" class="white-text"><i class="fa fa-comments-o pr-1"></i>12</a></li>
+							      <li class="list-inline-item pr-2"><a href="#" class="white-text"><i class="fa fa-star pr-1"> </i>21</a></li>
+							      <li class="list-inline-item"><a href="#" class="white-text"><i class="fa fa-share pr-1"> </i>5</a></li>
+							    </ul>
+							  </div>
+			                </div>
+			    		</div>
+
+			    		<div class="col-md-3 col-lg-3 col-sm-6 col-xs-6 mt-4">
+			    		    <div class="card bodh-card">
+			    		        <div class="card-img-block">
+			    		            <img class="card-img-top" src="img/Capture2.jpg" alt="Card image cap">
+			    		        </div>
+			                    <div class="card-body pt-0">
+			                    <h6 class="card-title">Hem Narayan Das Chaudhary</h6>
+			                    <hr>
+			                    <p class="card-text">Life is the aspect of existence that processes, acts, reacts, evaluates, and evolves through growth (reproduction and metabolism).</p>
+			                    
+			                  </div>
+			                  <div class="rounded-bottom mdb-color lighten-3 text-center">
+							    <ul class="list-unstyled list-inline font-small">
+							      <li class="list-inline-item pr-2 white-text"><i class="fa fa-clock-o pr-1"></i>18-08-2018</li>
+							      <li class="list-inline-item pr-2"><a href="#" class="white-text"><i class="fa fa-comments-o pr-1"></i>12</a></li>
+							      <li class="list-inline-item pr-2"><a href="#" class="white-text"><i class="fa fa-star pr-1"> </i>21</a></li>
+							      <li class="list-inline-item"><a href="#" class="white-text"><i class="fa fa-share pr-1"> </i>5</a></li>
+							    </ul>
+							  </div>
+			                </div>
+			    		</div>
+
+			    		<div class="col-md-3 col-lg-3 col-sm-6 col-xs-6 mt-4">
+			    		    <div class="card bodh-card">
+			    		        <div class="card-img-block">
+			    		            <img class="card-img-top" src="img/Capture3.jpg" alt="Card image cap">
+			    		        </div>
+			                    <div class="card-body pt-0">
+			                    <h6 class="card-title">Hem Narayan Das Chaudhary</h6>
+			                    <hr>
+			                    <p class="card-text">Life is the aspect of existence that processes, acts, reacts, evaluates, and evolves through growth (reproduction and metabolism).</p>
+			                    
+			                  </div>
+			                  <div class="rounded-bottom mdb-color lighten-3 text-center">
+							    <ul class="list-unstyled list-inline font-small">
+							      <li class="list-inline-item pr-2 white-text"><i class="fa fa-clock-o pr-1"></i>18-08-2018</li>
+							      <li class="list-inline-item pr-2"><a href="#" class="white-text"><i class="fa fa-comments-o pr-1"></i>12</a></li>
+							      <li class="list-inline-item pr-2"><a href="#" class="white-text"><i class="fa fa-star pr-1"> </i>21</a></li>
+							      <li class="list-inline-item"><a href="#" class="white-text"><i class="fa fa-share pr-1"> </i>5</a></li>
+							    </ul>
+							  </div>
+			                </div>
+			    		</div>
+
+			    		<div class="col-md-3 col-lg-3 col-sm-6 col-xs-6 mt-4">
+			    		    <div class="card bodh-card">
+			    		        <div class="card-img-block">
+			    		            <img class="card-img-top" src="img/Capture4.jpg" alt="Card image cap">
+			    		        </div>
+			                    <div class="card-body pt-0">
+			                    <h6 class="card-title">Hem Narayan Das Chaudhary</h6>
+			                    <hr>
+			                    <p class="card-text">Life is the aspect of existence that processes, acts, reacts, evaluates, and evolves through growth (reproduction and metabolism).</p>
+			                    
+			                  </div>
+			                  <div class="rounded-bottom mdb-color lighten-3 text-center">
+							    <ul class="list-unstyled list-inline font-small">
+							      <li class="list-inline-item pr-2 white-text"><i class="fa fa-clock-o pr-1"></i>18-08-2018</li>
+							      <li class="list-inline-item pr-2"><a href="#" class="white-text"><i class="fa fa-comments-o pr-1"></i>12</a></li>
+							      <li class="list-inline-item pr-2"><a href="#" class="white-text"><i class="fa fa-star pr-1"> </i>21</a></li>
+							      <li class="list-inline-item"><a href="#" class="white-text"><i class="fa fa-share pr-1"> </i>5</a></li>
+							    </ul>
+							  </div>
+			                </div>
+			    		</div>
+
+			    		<div class="col-md-3 col-lg-3 col-sm-6 col-xs-6 mt-4">
+			    		    <div class="card bodh-card">
+			    		        <div class="card-img-block">
+			    		            <img class="card-img-top" src="img/Capture5.jpg" alt="Card image cap">
+			    		        </div>
+			                    <div class="card-body pt-0">
+			                    <h6 class="card-title">Hem Narayan Das Chaudhary</h6>
+			                    <hr>
+			                    <p class="card-text">Life is the aspect of existence that processes, acts, reacts, evaluates, and evolves through growth (reproduction and metabolism).</p>
+			                    
+			                  </div>
+			                  <div class="rounded-bottom mdb-color lighten-3 text-center">
+							    <ul class="list-unstyled list-inline font-small">
+							      <li class="list-inline-item pr-2 white-text"><i class="fa fa-clock-o pr-1"></i>18-08-2018</li>
+							      <li class="list-inline-item pr-2"><a href="#" class="white-text"><i class="fa fa-comments-o pr-1"></i>12</a></li>
+							      <li class="list-inline-item pr-2"><a href="#" class="white-text"><i class="fa fa-star pr-1"> </i>21</a></li>
+							      <li class="list-inline-item"><a href="#" class="white-text"><i class="fa fa-share pr-1"> </i>5</a></li>
+							    </ul>
+							  </div>
+			                </div>
+			    		</div>
+
+			    		<div class="col-md-3 col-lg-3 col-sm-6 col-xs-6 mt-4">
+			    		    <div class="card bodh-card">
+			    		        <div class="card-img-block">
+			    		            <img class="card-img-top" src="img/Capture.jpg" alt="Card image cap">
+			    		        </div>
+			                    <div class="card-body pt-0">
+			                    <h6 class="card-title">Hem Narayan Das Chaudhary</h6>
+			                    <hr>
+			                    <p class="card-text">Life is the aspect of existence that processes, acts, reacts, evaluates, and evolves through growth (reproduction and metabolism).</p>
+			                    
+			                  </div>
+			                  <div class="rounded-bottom mdb-color lighten-3 text-center">
+							    <ul class="list-unstyled list-inline font-small">
+							      <li class="list-inline-item pr-2 white-text"><i class="fa fa-clock-o pr-1"></i>18-08-2018</li>
+							      <li class="list-inline-item pr-2"><a href="#" class="white-text"><i class="fa fa-comments-o pr-1"></i>12</a></li>
+							      <li class="list-inline-item pr-2"><a href="#" class="white-text"><i class="fa fa-star pr-1"> </i>21</a></li>
+							      <li class="list-inline-item"><a href="#" class="white-text"><i class="fa fa-share pr-1"> </i>5</a></li>
+							    </ul>
+							  </div>
+			                </div>
+			    		</div>
+
+			    		<div class="col-md-3 col-lg-3 col-sm-6 col-xs-6 mt-4">
+			    		    <div class="card bodh-card">
+			    		        <div class="card-img-block">
+			    		            <img class="card-img-top" src="img/Capture.jpg" alt="Card image cap">
+			    		        </div>
+			                    <div class="card-body pt-0">
+			                    <h6 class="card-title">Hem Narayan Das Chaudhary</h6>
+			                    <hr>
+			                    <p class="card-text">Life is the aspect of existence that processes, acts, reacts, evaluates, and evolves through growth (reproduction and metabolism).</p>
+			                    
+			                  </div>
+			                  <div class="rounded-bottom mdb-color lighten-3 text-center">
+							    <ul class="list-unstyled list-inline font-small">
+							      <li class="list-inline-item pr-2 white-text"><i class="fa fa-clock-o pr-1"></i>18-08-2018</li>
+							      <li class="list-inline-item pr-2"><a href="#" class="white-text"><i class="fa fa-comments-o pr-1"></i>12</a></li>
+							      <li class="list-inline-item pr-2"><a href="#" class="white-text"><i class="fa fa-star pr-1"> </i>21</a></li>
+							      <li class="list-inline-item"><a href="#" class="white-text"><i class="fa fa-share pr-1"> </i>5</a></li>
+							    </ul>
+							  </div>
+			                </div>
+			    		</div>
+
+					</div>
+				</div>					
+			</section>
+
+			<script src="js/vendor/jquery-2.2.4.min.js"></script>
+			<script src="js/popper.min.js"></script>
+			<script src="js/vendor/bootstrap.min.js"></script>	
+			<!-- Mobile toggle mode -->
+			<script src="js/superfish.min.js"></script>	
+
+			<!-- dropdown modal popup  -->
+			<script src="js/jquery.magnific-popup.min.js"></script>
+
+			<script>
+				$(document).ready(function() {
+				$('.popup-with-form').magnificPopup({
+					type: 'inline',
+					preloader: false,
+					focus: '#name', 
+
+					// When elemened is focused, some mobile browsers in some cases zoom in
+					// It looks not nice, so we disable it:
+					callbacks: {
+						beforeOpen: function() {
+							if($(window).width() < 700) {
+								this.st.focus = false;
+							} else {
+								this.st.focus = '#name';
+							}
+						}
+					}
+				});
+			});
+			</script>
+			<script>
+				$(function () {
+					$('.popup-with-zoom-anim').magnificPopup({
+						type: 'inline',
+
+						fixedContentPos: false,
+						fixedBgPos: true,
+
+						overflowY: 'auto',
+
+						closeBtnInside: true,
+						preloader: false,
+						
+						midClick: true,
+						removalDelay: 300,
+						mainClass: 'my-mfp-zoom-in'
+					});
+				});
+			</script>
+			<!-- replaces native select elements with customizable dropdowns. -->						
+			<script src="js/jquery.nice-select.min.js"></script>					
+			<script src="js/owl.carousel.min.js"></script>
+			<!-- Filter and sort magical layouts -->		
+            <script src="js/isotope.pkgd.min.js"></script>									
+			<script src="js/main.js"></script>	
+			
+		</body>
+	</html>
